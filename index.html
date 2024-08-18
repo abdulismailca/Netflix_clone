@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('Netflix_back.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Apply transparency to the body */
+        .transparent-body {
+            background-color: rgba(0, 0, 0, 0.7); /* Slightly dark transparent background */
+            padding: 1px;
+            /* border-radius: 10px; */
+        }
+
+        /* Make the navbar transparent */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5); /* Slight transparency */
+            border: none;
+            
+        }
+
+        /* Make the content sections transparent */
+        .content-section {
+            background-color: rgba(0, 0, 0, 0.5); /* Slight transparency */
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="transparent-body">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark mt-2 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" width="100">
+                </a>
+                <button type="button" class="btn btn-danger"
+        style="--bs-btn-padding-y: .44rem; --bs-btn-padding-x: 1.3rem; --bs-btn-font-size: .79rem;">
+  Sign In
+</button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+            <div class="container">
+                <h1 class="display-3 ">Unlimited movies, TV shows and more</h1>
+                <p class="lead mb-4">Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+  
+                <form class="d-flex justify-content-center">
+                    <input type="email" class="form-control form-control-lg w-50" placeholder="Email address">
+                    <button class="btn btn-danger btn-lg ms-2">Get Started ></button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Content Section 1 -->
+        <section class="content-section py-5">
+            <div class="container">
+                <h2 class="text-white mb-4">Popular on Netflix</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section 2 -->
+        <section class="content-section py-5">
+            <div class="container">
+                <h2 class="text-white mb-4">Trending Now</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://via.placeholder.com/150" class="img-fluid" alt="Show">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-white py-4 bg-dark">
+            <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
